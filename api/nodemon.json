@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "exec": "node --inspect -r sucrase/register",
+  "ignore": [],
+  "ext": ".js"
+}

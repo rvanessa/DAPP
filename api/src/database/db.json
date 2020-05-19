@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "MUg1eDIO_",
+      "username": "admin",
+      "password": "$2b$10$nyzi/Tk11UpLnyGF8h2cieY4EbDlHv3FVsFsSoHEas7BFXqDc/7GG",
+      "todos": []
+    }
+  ],
+  "eventChain": [
+    {
+      "owner": "MUg1eDIO_",
+      "list": {
+        "chain": [
+          {
+            "index": 0,
+            "timestamp": "2020-05-19T09:34:01.801Z",
+            "data": {
+              "event": "REGISTRATION",
+              "data": {
+                "log": "User registered"
+              }
+            },
+            "previousHash": " ",
+            "hash": "214947c3f934d65981e3d3b539cdd7044ad8608d4a06084c5f8c4aa7d8f1af8f"
+          },
+          {
+            "index": 1,
+            "timestamp": "2020-05-19T09:34:21.413Z",
+            "data": {
+              "event": "CREATE_TODO",
+              "data": {
+                "todo": {
+                  "id": "mcTg4cBPf",
+                  "text": "Build Blockchain",
+                  "completed": false
+                }
+              }
+            },
+            "previousHash": "214947c3f934d65981e3d3b539cdd7044ad8608d4a06084c5f8c4aa7d8f1af8f",
+            "hash": "98eb401cc7362442493898f90ca9f93a3aa5daf8bc78c0eb8cb83b6a7bd9c5da"
+          },
+          {
+            "index": 2,
+            "timestamp": "2020-05-19T09:34:32.240Z",
+            "data": {
+              "event": "TOGGLE_TODO",
+              "data": {
+                "todo": {
+                  "id": "mcTg4cBPf"
+                }
+              }
+            },
+            "previousHash": "98eb401cc7362442493898f90ca9f93a3aa5daf8bc78c0eb8cb83b6a7bd9c5da",
+            "hash": "43b70ac052994d38f0fa49ac8c5135eae39ba15344e0b8fd7ad2abd308e539a3"
+          },
+          {
+            "index": 3,
+            "timestamp": "2020-05-19T09:34:38.101Z",
+            "data": {
+              "event": "REMOVE_TODO",
+              "data": {
+                "todo": {
+                  "id": "mcTg4cBPf"
+                }
+              }
+            },
+            "previousHash": "43b70ac052994d38f0fa49ac8c5135eae39ba15344e0b8fd7ad2abd308e539a3",
+            "hash": "887e21bbfab7feadea5ee564c405c0ab1a7a6aede47ebe0def44f0b066506cbc"
+          }
+        ]
+      }
+    }
+  ]
+}
